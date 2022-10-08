@@ -7,11 +7,12 @@ console.clear();
 const client = new Client({
     intents: [
       GatewayIntentBits.Guilds,
+      GatewayIntentBits.GuildMembers,
     ],
 });
 
-const boilerplateComponents = async () => {
-  await require('./util/boilerplateClient')(client);
+const autoroleComponents = async () => {
+  await require('./util/autoroleClient')(client);
 }
 
-boilerplateComponents();
+autoroleComponents();
