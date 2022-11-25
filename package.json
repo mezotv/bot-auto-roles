@@ -26,7 +26,7 @@
   "homepage": "https://github.com/mezotv/bot-auto-roles/#readme",
   "dependencies": {
     "@discordjs/rest": "^1.3.0",
-    "chalk-advanced": "^1.0.3",
+    "chalk-advanced": "^1.0.4",
     "discord-api-types": "^0.37.12",
     "discord.js": "^14.5.0",
     "dotenv": "^16.0.3"
